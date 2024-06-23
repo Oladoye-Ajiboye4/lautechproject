@@ -29,9 +29,9 @@
 
     <main>
         <div id="navs">
-            <button class="navs-button"><img src="" alt="">Dashborad</button>
-            <button class="navs-button"><img src="" alt="">Change Password</button>
-            <button class="navs-button"><img src="" alt="">Lautech Email</button>
+            <button class="navs-button"><a href="http://127.0.0.1:5500" target="_blank"></a><img src="" alt="">Dashborad</button>
+            <button class="navs-button"><a href="http://"></a><img src="" alt="">Change Password</button>
+            <button class="navs-button"><a href="http://"></a><img src="" alt="">Lautech Email</button>
             <button class="navs-button"><img src="" alt="">Course Registration</button>
             <button class="navs-button"><img src="" alt="">Payments</button>
             <button class="navs-button"><img src="" alt="">Classmates</button>
@@ -65,46 +65,46 @@
             </div>
             
             <div id="details">
-                <div>
-                    <div id="session">
-                        <p><b>Academic Sesion: 2023/2024</b></p>
-                        <p><b>Semester: Harmattan</b></p>
+                <div id="detail1">
+                    <div class="card" id="session">
+                        <p><b>Academic Sesion: </b><b class="coloured-text">2023/2024</b></p>
+                        <p><b>Semester: </b> <b class="coloured-text">Harmattan</b></p>
                     </div>
 
-                    <div>
-                        <div><h4>Profile</h4></div>
-                        <div>
-                            <h6>ABOUT</h6>
-                            <label for="">FIRSTNAME SECONDNAME THIRDNAME</label>
-                            <label for="">COURSE</label>
-                            <label for="">DEPARTMENT</label>
-                            <h6>CONTACTS</h6>
-                            <label for="">EMAIL</label>
-                            <label for="">PHONENUMBER</label>
-                            <h6>ACADEMIC INFORMATION</h6>
-                            <label for="">Matric Number: 123456789</label>
+                    <div id="section1">
+                        <div class="sub-heading"><h4>Profile</h4></div>
+                        <div id="bio">
+                            <p class="heading">ABOUT</p>
+                            <p>AJIBOYE OLADOYE SAMSON</p>
+                            <p>COURSE</p>
+                            <p>DEPARTMENT</p>
+                            <p class="heading">CONTACTS</p>
+                            <p>oladoyeajiboye@gmail.com</p>
+                            <p>07068548200</p>
+                            <p class="heading">ACADEMIC INFORMATION</p>
+                            <p>Number: 123456789</p>
                         </div>
-                        <div>
-                            <button>More details</button>
+                        <div id="button-part">
+                            <button id="more-details">More details</button>
                         </div>
                     </div>
                 </div>
                 
-                <div>
-                    <div>
-                        <div><h4>Registration History</h4></div>
-                        <div><button>Register course</button></div>
+                <div id="detail2">
+                    <div id="registration" class="sub-heading">
+                        <div><h4 id="reg-text">Registration History</h4></div>
+                        <div><button id="reg-button">Register course</button></div>
                     </div>
-                    <div>
+                    <div class="card" id="course-reg">
                         <div> 
                             <img src="icon (2).png" alt="icon1" width="50px">
                         </div>
-                        <div>
+                        <div id="course-details">
                             <h5>CSC-2023/2024</h5>
                             <p>100H | Enrolled Courses 8 | Units 18 </p>
                             <p>08/04/2024</p>
         
-                            <button>Print</button>
+                            <button id="print">Print</button>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
     </main>
 
     <footer>
-
+        <p>Copyright © 2024 LAUTECH Student Portal. All rights reserved</p>
     </footer>
 </body>
 </html>
